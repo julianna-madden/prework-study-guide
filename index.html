@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -25,12 +26,57 @@
       </section>
    
       <section class="card" id="css-section">
-   
+        <h2>CSS</h2>
+        <ul>
+          <li>Select colors from <a href="https://htmlcolorcodes.com/">HTML Color Codes Website</a></li>
+          <li>There are three ways to style a webpage using CSS:</li>
+          <ul>
+            <li><b>Inline CSS</b></li>
+            <ul>
+              <li>Used when a developer wants to style an element directly in the HTML file.</li>
+              <li>When a developer wants to style an element directly in the HTML file, they use inline CSS.</li>
+              <li>Inline styles apply to a specific HTML tag, using a style attribute with a CSS rule to style a particular page element only.</li>
+              <li>They’re useful for quick and permanent changes but are less flexible than external and internal style sheets, because each inline style must be edited individually whenever you make a design change.</li>
+              <li>An example of inline CSS is using the style attribute to change the color of a single h1 heading.</li>
+            </ul>
+            <li><b>Internal CSS style sheet</b></li>
+            <ul>
+              <li>Contains CSS rules for the webpage in the head section of the HTML file</li>
+              <li>The rules only apply to that page, and you can configure CSS classes and IDs, which are used to identify elements, to style multiple elements in the page code.</li>
+              <li>Again, a single change to the CSS rule will apply to all tagged page elements.</li>
+            </ul>
+            <li><b>External CSS style sheet</b> <i>(preferred method)</i></li>
+            <ul>
+              <li>Most common way to style a webpage</li>
+              <li>Preferable because it allows deverlopers to keep all their CSS rules in a seperate file, making design changes easier.</li>
+              <li>Link the file using a "link" element in the HTML's "head"</li>
+            </ul>
+          </ul>
+          <li><a href="https://en.wikipedia.org/wiki/Separation_of_concerns">Separation of concerns</a>: separating code into different files based on use</li>
+        </ul>
+        <ul>
+          <li>CSS Rules</li>
+          <ul>
+            <li>Declarations contain two important components: the CSS property we want to apply and the value of the property.</li>
+            <ul>
+              <li>For example, the declaration <i>color: blue</i>; includes the CSS property <i>color</i> and the value for that property, <i>blue</i>.</li>
+            </ul>
+            <li><b>Margin:</b> property indicating how much space we want around the outside of an element</li>
+            <ul>
+              <li>Is not visible on the page as it is only adding a buffer</li>
+            </ul>
+            <li><b>Padding:</b> property adding space around the content inside an element</li>
+            <li>For more information on the box model: visit <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model">MDN Web Docs on the box model</a></li>
+            <li>For more properties and values: visit <a href="MDN Web Docs on CSS Links to an external site.">MDN Web Docs on CSS</a></li>
+          </ul>
+        </ul>
+        
       </section>
    
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
+          <li><a href="https://education.github.com/git-cheat-sheet-education.pdf">Git Cheat Sheet</a></li>
           <li>Git Flow</li>
           <ul>
             <li>git checkout -b feature/name</li>
@@ -43,12 +89,11 @@
             </ul>
             <li>git push origin feature/name</li>
           </ul>
-          <li><a href="https://education.github.com/git-cheat-sheet-education.pdf">Git Cheat Sheet</a></li>
         </ul>
       </section>
    
       <section class="card" id="javascript-section">
-   
+        <h2>Javascript</h2>
       </section>
     </main>
 
